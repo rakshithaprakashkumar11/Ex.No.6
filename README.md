@@ -1,15 +1,23 @@
 # Ex.No.6 Development of Python Code Compatible with Multiple AI Tools
 
-# Date:30-10-25
-# Register no.212223220038
-# Aim: Write and implement Python code that integrates with multiple AI tools to automate the task of interacting with APIs, comparing outputs, and generating actionable insights with Multiple AI Tools
+# Register no.212223220083
+# Aim: 
+To write and implement Python code that integrates with multiple AI tools (ChatGPT, Claude, and Gemini) to automate the process of interacting with APIs, comparing outputs, and generating actionable insights for healthcare-related queries.
 
 
 #  AI Tools Required:
 
-## CHATGPT
-## CLAUDE
-## GEMINI
+ChatGPT
+
+Claude
+
+Gemini
+
+Python 3.x
+
+requests library
+
+pandas library
 
 ## Algorithm Overview
 
@@ -47,11 +55,19 @@
 
 ## Prompt Types
 
-- **Straightforward Prompt**: A simple query asking for diagnosis and treatment based on provided symptoms.
+- **Straightforward Prompt**:
+```
+A simple query asking for diagnosis and treatment based on provided symptoms.
+```
   
-- **Tabular Format**: Presenting data in a structured table format for each symptom.
-  
-- **Missing Word Prompt**: A prompt with an incomplete sentence for the AI to complete.
+- **Tabular Format**:
+```
+Presenting data in a structured table format for each symptom.
+```  
+- **Missing Word Prompt**:
+```
+A prompt with an incomplete sentence for the AI to complete.
+```
 
 ## Example Queries & Responses
 
@@ -266,6 +282,9 @@ After executing the code, the results are displayed in a tabular format, compari
 
 
 # Conclusion:
-This project provides a robust solution for healthcare diagnostics by integrating multiple AI tools and comparing their responses for accuracy, clarity, simplicity, and user experience. The tool can assist healthcare professionals by offering valuable insights into patient symptoms and treatment recommendations, streamlining the decision-making process.
+This experiment successfully demonstrates integration of multiple AI tools for healthcare diagnostic assistance. By comparing outputs from ChatGPT, Claude, and Gemini, we can evaluate their strengths in terms of accuracy, clarity, and usability.
 
-# Result: The corresponding Prompt is executed successfully.
+Such a system can support healthcare professionals by providing multiple AI-driven perspectives for better decision-making.
+
+# Result: 
+The corresponding prompt was executed successfully, and responses from multiple AI tools were compared and evaluated to generate meaningful insights.
